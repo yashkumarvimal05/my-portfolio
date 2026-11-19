@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+
+            <div class="logo">
+                My Portfolio
+            </div>
+
+            <button class="menu-button" onclick="showMenu()">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <!-- Home -->
+    
+<section id="home" class="home">
+
+    <div class="home-content">
+
+        <img src="profile.jpg.jpeg" alt="Yash Kumar Vimal" style="width: 120px; height: 120px; object-fit: cover; border-radius: 50%;" class="profile-photo">
+
+        <p class="small-text">Hello, I'm</p>
+
+        <h1>Yash Kumar Vimal</h1>
+
+        <h2>Beginner Web Developer</h2>
+
+        <p>
+            I am a student learning web development and
+            building my skills with HTML, CSS and JavaScript.
+        </p>
+
+        <a href="#projects" class="button">
+            View My Projects
+        </a>
+
+    </div>
+
+</section>
+
+
+    <!-- About -->
+    <section id="about" class="section">
+
+        <h2 class="section-title">
+            About Me
+        </h2>
+
+        <div class="about-content">
+
+            <div class="about-text">
+
+                <p>
+                    Hello! I am a student who is interested in
+                    web development and technology.
+                </p>
+
+                <p>
+                    I am currently learning HTML, CSS and JavaScript.
+                    I enjoy creating websites and improving my
+                    programming skills.
+                </p>
+
+                <p>
+                    My goal is to become a better developer by
+                    working on different projects and learning
+                    new technologies.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Skills -->
+    <section id="skills" class="section skills-section">
+
+        <h2 class="section-title">
+            My Skills
+        </h2>
+
+        <div class="skills">
+
+            <div class="skill-card">
+                <h3>HTML</h3>
+                <p>
+                    I use HTML to create the structure
+                    of webpages.
+                </p>
+            </div>
+
+            <div class="skill-card">
+                <h3>CSS</h3>
+                <p>
+                    I use CSS to design websites and
+                    make them responsive.
+                </p>
+            </div>
+
+            <div class="skill-card">
+                <h3>JavaScript</h3>
+                <p>
+                    I use JavaScript to add interaction
+                    and functionality to websites.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+
+        <h2 class="section-title">
+            My Projects
+        </h2>
+
+        <div class="projects">
+
+            <div class="project-card">
+
+                <h3>Personal Portfolio</h3>
+
+                <p>
+                    A responsive personal portfolio website
+                    created using HTML, CSS and JavaScript.
+                </p>
+
+                <a href="#home">
+                    View Project
+                </a>
+
+            </div>
+
+
+            <div class="project-card">
+
+                <h3>College Website</h3>
+
+                <p>
+                    A simple college website design containing
+                    information about courses, departments
+                    and contact details.
+                </p>
+
+                <a href="#">
+                    Coming Soon
+                </a>
+
+            </div>
+
+
+        
+
+        </div>
+
+    </section>
+
+
+    <!-- Contact -->
+    <section id="contact" class="section contact-section">
+
+        <h2 class="section-title">
+            Contact Me
+        </h2>
+
+        <p class="contact-text">
+            If you would like to contact me, feel free to
+            send me a message.
+        </p>
+
+
+        <form id="contactForm"
+      action="https://formspree.io/f/myewjqgq"
+      method="POST">
+
+            <input
+                type="name"
+                id="name"
+                placeholder="Your name"
+                required
+            >
+
+            <input
+                type="email"
+                id="email"
+                placeholder="Your Email"
+                required
+            >
+
+            <textarea
+                id="message"
+                name="message"
+                rows="5"
+                placeholder="Your Message"
+                required
+            ></textarea>
+
+            <button type="submit">
+                Send Message
+            </button>
+
+        </form>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>
+            © 2026 Yash Kumar Vimal. All Rights Reserved.
+        </p>
+    
+        <a href="https://github.com/yashkumarvimal05"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="social-link">
+            GitHub
+        </a>
+        <a href="https://www.linkedin.com/in/yash-kumar-vimal-86630a326"
+   target="_blank"
+   rel="noopener noreferrer"
+   class="social-link">
+    LinkedIn
+</a>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
